@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <Home/>
+        <h1>Sagar  Bakshi</h1>
     </div>
   );
 }
