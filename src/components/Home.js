@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import styled from "styled-components";
 import ImgSlider from './ImgSlider'
-import Viwers from "./Viwers";
+import Viewers from "./Viewers";
 
 class Home extends Component {
     render() {
         return (
             <Container>
                 <ImgSlider/>
-                <Viwers/>
+                <Viewers/>
             </Container>
         );
     }
