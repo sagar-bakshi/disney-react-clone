@@ -33,6 +33,7 @@ const Container = styled.div`
   padding: 30px 0px 26px;
 `
 const Wrap = styled.div`
+  cursor: pointer;
   border-radius: 10px;
   border: 3px solid rgb(249, 249, 249, 0.1);
   box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,

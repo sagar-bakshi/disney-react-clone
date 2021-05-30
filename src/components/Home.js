@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import styled from "styled-components";
 import ImgSlider from './ImgSlider'
 import Viewers from "./Viewers";
+import Movies from "./Movies";
 
 class Home extends Component {
     render() {
@@ -9,13 +10,13 @@ class Home extends Component {
             <Container>
                 <ImgSlider/>
                 <Viewers/>
+                <Movies/>
             </Container>
         );
     }
 }
 
 const Container = styled.main`
-  
   min-height: calc(100vh - 70px);
   padding: 0 calc(3.2vw + 5px);
   position: relative;
