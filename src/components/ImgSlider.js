@@ -35,7 +35,7 @@ export default class ImgSlider extends Component {
 }
 
 const Carousel = styled(Slider)`
-  
+
   ul li button{
     &:before{
       font-size: 10px;
@@ -59,7 +59,7 @@ const Carousel = styled(Slider)`
 
 const Wrap = styled.div`
   cursor: pointer;
-  transition-duration: 300ms ;
+
   img{
     width: 100%;
     height: 100%;

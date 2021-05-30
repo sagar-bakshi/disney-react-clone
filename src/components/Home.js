@@ -23,8 +23,7 @@ const Container = styled.main`
   overflow-x: hidden;
   
   &:before{
-    background: url("/images/home-background.png") center center / cover 
-    no-repeat fixed;
+    //background: url("/images/home-background.png") center center / cover 
     content: "";
     position: fixed;
     top: 0;
